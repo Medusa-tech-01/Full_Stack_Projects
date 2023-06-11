@@ -1,0 +1,59 @@
+doctype html
+html
+    head
+      title Sam's Dance Academy
+      style
+        include ../static/style.css
+    body 
+      nav#navbar 
+        ul 
+          div#logo
+            img(src="/static/img/logo2.jpeg")
+            | SDA
+          li #[a(href='/') Home]
+          li #[a(href='/') Services]
+          li #[a(href='/') Class Schedule]
+          li #[a(href='/') About Us]
+          li #[a(href='/contact') Contact Us]
+      section#introsection 
+        div Welcome to Sam's Dance Academy 
+        div.small Dance to live. Live to dance.
+      section#missionsection 
+        h2 Our Mission 
+        div.cards
+          div.card
+            h3 Dance Perfection
+            div.card-box
+              div.card-image
+                img(src="/static/img/card1.jpeg")
+              div.card-content
+                p This is the best dance academy in the universe
+          div.card
+            h3 Dance the way you like
+            div.card-box
+              div.card-image
+                img(src="/static/img/card2.jpeg")
+              div.card-content
+                p This is the best dance academy in the universe
+          div.card
+            h3 Expert Teaching
+            div.card-box
+              div.card-image
+                img(src="/static/img/card3.jpeg")
+              div.card-content
+                p This is the best dance academy in the universe
+      section#sponsorssection 
+        h2 Our Sponsors 
+        div#sponsors
+          img(src="/static/img/client1.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/client2.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/client3.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/client4.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/client5.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/client6.png", alt="Sponsor Image", class="spImage")
+      footer 
+        | Copyright © 2023 SamDanceAcademy | All rights reserved
+
+
+      script 
+        include ../static/script.js

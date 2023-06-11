@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    padding: 20px 0px;
+    font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Tilt Prism', cursive; */
+}
+
+.form-box{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.form-box input{
+    width: 450px;
+    margin: 8px 5px;
+    padding: 4px 11px;
+    border: 3px solid grey;
+    border-radius: 8px;
+    /* outline: none; */
+    font-size: 15px;
+}
+.btn{
+    padding: 6px 17px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+}
+
+
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.alert-success {
+    color: #155724;
+    /* color: #28a745; */
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
